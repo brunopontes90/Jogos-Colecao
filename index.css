@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+:root {
+    --yellow: #FFFF00;
+    --black: #000000;
+    --white: #FFFFFF;
+    --red: #FF0000;
+    --blue: #0000FF;
+    --green: #088A08;
+    --orange: #FF8000;
+    --gray: #585858;
+}
+
+
+/*BOTOES*/
+
+.btn-primary {
+    background-color: var(--yellow);
+    border-color: var(--yellow);
+    color: var(--black);
+}
+
+.btn-primary:hover {
+    background-color: var(--black);
+    border-color: var(--black);
+    color: var(--yellow);
+    transition: all 1s;
+}
+
+.btn-primary:focus {
+    box-shadow: none;
+    background-color: var(--black);
+    border-color: var(--black);
+    color: var(--yellow);
+    transition: all 1s;
+}
+
+.btn-primary:active {
+    box-shadow: none !important;
+    background-color: var(--black) !important;
+    border-color: var(--black) !important;
+    color: var(--yellow) !important;
+    transition: all 1s;
+}
+
+
+/*MENU*/
+
+#logoGames {
+    font-size: 50pt;
+    color: var(--orange);
+}
+
+.nav-link {
+    text-decoration: underline var(--orange);
+    color: var(--black) !important;
+    font-size: 15pt;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*MENU COLLAPSE*/
+
+.navbar-toggler {
+    outline: none !important;
+    border: none;
+    color: var(--black) !important;
+    background-color: var(--orange);
+}
+
+
+/*BANNER*/
+
+.jumbotron {
+    min-height: calc(100vh - 86px);
+    border-radius: 0px;
+    background: url('../img/banner.jpg') no-repeat;
+    background-size: 100% 100%;
+    padding: 30px 0px 50% 0px;
+    margin-bottom: 0px;
+}
+
+
+/*MAIN*/
+
+#jogos {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15pt !important;
+    box-shadow: 0px 5px 10px 0px var(--black);
+    border-radius: 5px;
+}
+
+#jogos img {
+    border: solid var(--orange);
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 0px var(--black);
+    height: 200px !important;
+    width: 250px !important;
+}
+
+#quemSomos {
+    background-color: var(--gray) !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15pt !important;
+    padding: 50px !important;
+}
+
+#fale {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15pt !important;
+    box-shadow: 0px 5px 10px 0px var(--black);
+    border-radius: 5px;
+}
+
+
+/*RODAPE*/
+
+.bg-dark {
+    background-color: var(--black) !important;
+}
+
+footer i {
+    font-size: 18pt;
+    padding: 8px 30px 10px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*PHP*/
+
+#corpo {
+    background: url(./img/banner.jpg);
+    background-position: 100%;
+    background-size: 100%;
+    /* background-attachment: fixed; */
+    font-family: arial, sans-serif;
+}
+
+.divisao {
+    padding: 8px;
+    position: relative;
+    width: 700px;
+    height: 500px;
+    background-color: #f8f8f8;
+    margin: 145px auto 200px auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 3px 3px 0.3px rgba(0, 0, 0, .3);
+    word-wrap: break-word;
+}
